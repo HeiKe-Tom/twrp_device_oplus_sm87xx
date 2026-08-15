@@ -4,15 +4,15 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/oplus/sm87xx
+DEVICE_PATH := device/oplus/sm8750
 
 # Inherit from device.mk configuration
 $(call inherit-product, $(DEVICE_PATH)/device.mk)
 
 ## Device identifier
-PRODUCT_DEVICE  := sm87xx
-PRODUCT_NAME    := twrp_sm87xx
-PRODUCT_BRAND   := oplus
+PRODUCT_DEVICE  := sm8750
+PRODUCT_NAME    := twrp_sm8750
+PRODUCT_BRAND   := OnePlus
 
 # Theme
 TW_STATUS_ICONS_ALIGN   := center
